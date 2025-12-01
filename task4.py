@@ -1,5 +1,6 @@
 from datasets import load_dataset
 import pandas as pd
+import re
 
 def clean_patch(patch):
     if patch is None:

@@ -23,7 +23,7 @@ task1_df = pd.DataFrame({
 })
 
 task1_df.to_csv(
-    "task1_pull_requests.csv",
+    "task1.csv",
     index=False,
     encoding="utf-8",
     quoting=1   
